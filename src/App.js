@@ -9,7 +9,7 @@ function App() {
           {/* <div className="spinner"></div> */}
           <img src={kklogo2} className="App-logo" alt="logo" />
         </div>
-        <p>For app support, please contact us at kkappdevtester@gmail.com</p>
+        <p>For app support, please contact our Developer at kkappdevtester@gmail.com</p>
         {/* <a
           className="App-link"
           href="https://reactjs.org"
