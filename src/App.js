@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="container">
-          <div className="spinner"></div>
+          {/* <div className="spinner"></div> */}
           <img src={kklogo2} className="App-logo" alt="logo" />
         </div>
         <p>For app support, please contact us at kkappdevtester@gmail.com</p>

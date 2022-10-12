@@ -52,91 +52,13 @@ body {
   }
 }
 
-.spinner {
-  margin-top: 3px;
-  margin-left: 5px;
-  border: 13px solid black;
-  border-top: 14px solid red;
-  border-radius: 50%;
-  width: 25vmin;
-  height: 25vmin;
-  animation: spin 2s linear infinite;
-  /* box-shadow: red 1px 2px 3px; */
-  /* position:relative; */
-  opacity: 85%;
-  position: absolute;
-}
-
-@keyframes spin {
+/* @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
-}
+} */
 
 .footer {
   padding: 20px;
   background-color: black;
   color: grey;
-}
-
-@media screen and (max-width: 480px) {
-  body {
-    background-color: black;
-    margin: 0 auto;
-    height: 100%;
-  }
-  .spinner {
-    border: 7px solid black;
-    border-top: 7px solid red;
-    border-radius: 50%;
-    width: 25vmin;
-    height: 25vmin;
-    animation: spin 2s linear infinite;
-    /* box-shadow: red 1px 2px 3px; */
-    /* position:relative; */
-    opacity: 85%;
-    position: absolute;
-  }
-  .App-logo {
-    height: 30vmin;
-    width: 30vmin;
-    pointer-events: none;
-    color: white;
-    filter: invert(1);
-    position: sticky;
-    /* width: 200px;
-    height: 200px; */
-  }
-
-}
-
-@media screen and (max-width: 768px) {
-  body {
-    background-color: black;
-    margin: 0 auto;
-    height: 100%;
-  }
-  .spinner {
-    /* margin-top:9px; */
-    border: 12px solid black;
-    border-top: 12px solid red;
-    border-radius: 50%;
-    width: 25vmin;
-    height: 25vmin;
-    animation: spin 2s linear infinite;
-    /* box-shadow: red 1px 2px 3px; */
-    /* position:relative; */
-    opacity: 85%;
-    position: absolute;
-  }
-  .App-logo {
-    height: 30vmin;
-    width: 30vmin;
-    pointer-events: none;
-    color: white;
-    filter: invert(1);
-    position: sticky;
-    /* width: 200px;
-    height: 200px; */
-  }
-
 }
