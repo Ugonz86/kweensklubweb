@@ -666,14 +666,32 @@ function Legal() {
       </ul>
       <h3>Privacy Policy</h3>
       <p>Last updated November 3, 2022</p>
-      TABLE OF CONTENTS 1. AGREEMENT TO TERMS 2. INTELLECTUAL PROPERTY RIGHTS 3.
-      USER REPRESENTATIONS 4. FEES AND PAYMENT 5. CANCELLATION 6. PROHIBITED
-      ACTIVITIES 7. USER GENERATED CONTRIBUTIONS 8. CONTRIBUTION LICENSE 9.
-      SUBMISSIONS 10. SITE MANAGEMENT 11. TERM AND TERMINATION 12. MODIFICATIONS
-      AND INTERRUPTIONS 13. GOVERNING LAW 14. DISPUTE RESOLUTION 15. CORRECTIONS
-      16. DISCLAIMER 17. LIMITATIONS OF LIABILITY 18. INDEMNIFICATION 19. USER
-      DATA 20. ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES 21.
-      MISCELLANEOUS 22. CONTACT US
+
+<h4>TABLE OF CONTENTS</h4>
+      <ol>
+       <ul>1. AGREEMENT TO TERMS </ul>
+        <ul>2. INTELLECTUAL PROPERTY RIGHTS</ul>
+          <ul> 3.USER REPRESENTATIONS</ul>
+          <ul> 4. FEES AND PAYMENT</ul>
+          <ul> 5. CANCELLATION</ul>
+          <ul>6. PROHIBITEDACTIVITIES </ul>
+          <ul>7. USER GENERATED CONTRIBUTIONS </ul>
+          <ul>8. CONTRIBUTION LICENSE </ul>
+          <ul>9.SUBMISSIONS </ul>
+          <ul>10. SITE MANAGEMENT </ul>
+          <ul> 11. TERM AND TERMINATION </ul>
+          <ul>12. MODIFICATIONS AND INTERRUPTIONS </ul>
+          <ul>13. GOVERNING LAW </ul>
+          <ul>14. DISPUTE RESOLUTION </ul>
+          <ul>15. CORRECTIONS</ul>
+          <ul>16. DISCLAIMER </ul>
+          <ul>17. LIMITATIONS OF LIABILITY </ul>
+          <ul>18. INDEMNIFICATION </ul>
+          <ul>19. USER DATA </ul>
+          <ul>20. ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES </ul>
+          <ul>21.MISCELLANEOUS </ul>
+          <ul>22. CONTACT US</ul>
+      </ol>
       <h5>1. AGREEMENT TO TERMS</h5>
       <ul>
         These Terms of Use constitute a legally binding agreement made between

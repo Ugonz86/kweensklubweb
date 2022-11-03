@@ -31,7 +31,8 @@ function App() {
         <Route path="updates" element={<Updates />} />
       </Routes>
       <footer className="footer">
-        KK Group, LLC. All Rights Reserved. App and Website Developed by UGX
+        <p>KK Group, LLC. All Rights Reserved.</p>
+        <p>App and Website Developed by UGX</p>
       </footer>
     </div>
   );

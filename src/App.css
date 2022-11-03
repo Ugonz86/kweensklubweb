@@ -20,7 +20,7 @@
   pointer-events: none;
   color: white;
   filter: invert(1);
-  margin-bottom: 40px;
+  margin: 50px;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
@@ -30,7 +30,7 @@
 } */
 
 .App-header {
-  min-height: 60vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,16 +60,21 @@
 
 .legal {
   text-align: left;
-  margin: 20px;
-  min-height: 60vh;
+  /* margin-top: 20px; */
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 60px;
+  /* min-height: 60vh; */
   font-size: calc(10px + 2vmin);
   color: white;
   padding: 20px;
+  /* text-align: justify; */
 }
 
 .about {
   margin: 20px;
-  min-height: 60vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -87,6 +92,8 @@
   text-align: left;
   line-height: 25px;
   font-size: 20px;
+  text-align: justify;
+  margin-bottom: 50px;
 }
 
 .footer {
@@ -96,19 +103,21 @@
   text-align: center;
   justify-content: center;
   align-items: center; 
-  margin-top: 1rem;
-  padding: 1rem;
+  padding: .5rem;
   position: fixed;
+  margin: 0 auto;
   bottom: 0;
+  right: 0;
   left: 0;
-  width: 100%;
   background-color: black;
 }
 
 
 .nav {
-  width: 100%;
+  margin: 0 auto;
   top: 0;
+  left: 0;
+  right: 0;
   padding: 20px;
   justify-content: center;
   align-items: center;
