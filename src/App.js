@@ -10,22 +10,19 @@ function App() {
   return (
     <div className="App">
       <nav className="nav">
-        <Link to="/" className="link" activeClassName="active" end>
+        <Link to="/" className="link" activeClassName="active" >
           HOME
         </Link>
-
         <Link to="aboutus" className="link" activeClassName="active">
           ABOUT
         </Link>
-
+{/* 
         <Link to="legal" className="link" activeClassName="active">
           LEGAL
-        </Link>
-
+        </Link> */}
         <Link to="updates" className="link" activeClassName="active">
           UPDATES
         </Link>
-        
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -33,6 +30,7 @@ function App() {
         <Route path="legal" element={<Legal />} />
         <Route path="updates" element={<Updates />} />
       </Routes>
+      <footer className="footer">App and Website Developed by UGX</footer>
     </div>
   );
 }

@@ -1,7 +1,9 @@
 .App {
   text-align: center;
   /* background-color: black; */
-  /* margin: 0 auto; */
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .App-logo {
@@ -21,34 +23,32 @@
   pointer-events: none;
   color: white;
   filter: invert(1);
-  position: sticky;
+  /* position: sticky; */
   margin-bottom: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    /* animation: App-logo-spin infinite 20s linear; */
+    animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
-  /* background-color: #282c34; */
-  /* background-color: black; */
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: grey;
-
+  padding: 20px;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -57,43 +57,66 @@
   }
 }
 
-/* @keyframes spin {
+@keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 } */
 
 .legal {
-  color: white;
-  margin: 50px;
-  padding: 20px;
   text-align: left;
-  /* background-color: white; */
+  margin: 20px;
+  min-height: 60vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
 }
 
 .about {
-  margin: auto;
-  width: 600px;
-  padding: 20px;
-  color: white;
-  justify-content: center;
+  margin: 20px;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+}
+
+.first {
+  text-indent: 50px;
 }
 
 .content {
   text-align: left;
   line-height: 25px;
+  font-size: 20px;
 }
 
 .footer {
-  padding: 20px;
-  background-color: black;
   color: grey;
+  font-size: 12px;
+  position: fixed;
+  text-align: center;
+  justify-content: center;
+  align-items: center; 
+  margin-top: 1rem;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 
 .nav {
+  /* width: 100%; */
   margin: 20px;
   padding: 20px;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  background-color: black;
 }
 
 .link {

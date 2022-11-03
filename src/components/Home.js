@@ -5,16 +5,14 @@ import "../App.css";
 function Home() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div>
-          <img src={kklogo2} className="App-logo" alt="logo" />
-        </div>
+      <div className="App-header">
+        <img src={kklogo2} className="App-logo" alt="logo" />
         <p>
           For app support, please contact our Developer at
           kkappdevtester@gmail.com
         </p>
-      </header>
-      <footer className="footer">App and Website Developed by UGX</footer>
+      </div>
+      {/* <footer className="footer">App and Website Developed by UGX</footer> */}
     </div>
   );
 }

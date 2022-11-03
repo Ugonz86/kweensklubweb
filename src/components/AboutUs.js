@@ -7,7 +7,7 @@ function AboutUs() {
     <div className="about">
       <img src={kklogo2} className="App-logo2" alt="logo" />
       <div className="content">
-        <p>
+        <p className="first">
           Kweens Klub (KK), located in the heart of Santurce in San Juan, Puerto
           Rico, is the premier LGBTIQ+ nightclub of the island. It all started
           as an idea of combining nightlight experiences from the south and the
