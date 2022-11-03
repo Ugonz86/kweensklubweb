@@ -1,27 +1,38 @@
-import kklogo2 from "./kklogo2.png";
+import React from "react";
+import { Routes, Route, Link } from "react-router-dom";
+import Home from "./components/Home";
+import AboutUs from "./components/AboutUs";
+import Legal from "./components/Legal";
+import Updates from "./components/Updates";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div className="container">
-          {/* <div className="spinner"></div> */}
-          <img src={kklogo2} className="App-logo" alt="logo" />
-        </div>
-        <p>For app support, please contact our Developer at kkappdevtester@gmail.com</p>
-        {/* <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-      </header>
-      <footer className="footer">
-        App and Website Developed by UGX
-      </footer>
+      <nav className="nav">
+        <Link to="/" className="link" activeClassName="active" end>
+          HOME
+        </Link>
+
+        <Link to="aboutus" className="link" activeClassName="active">
+          ABOUT
+        </Link>
+
+        <Link to="legal" className="link" activeClassName="active">
+          LEGAL
+        </Link>
+
+        <Link to="updates" className="link" activeClassName="active">
+          UPDATES
+        </Link>
+        
+      </nav>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="aboutus" element={<AboutUs />} />
+        <Route path="legal" element={<Legal />} />
+        <Route path="updates" element={<Updates />} />
+      </Routes>
     </div>
   );
 }

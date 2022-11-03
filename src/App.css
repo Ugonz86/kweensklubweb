@@ -1,11 +1,6 @@
 .App {
   text-align: center;
-  background-color: black;
-  /* margin: 0 auto; */
-}
-
-body {
-  background-color: black;
+  /* background-color: black; */
   /* margin: 0 auto; */
 }
 
@@ -20,6 +15,16 @@ body {
   height: 200px; */
 }
 
+.App-logo2 {
+  height: 15vmin;
+  width: 15vmin;
+  pointer-events: none;
+  color: white;
+  filter: invert(1);
+  position: sticky;
+  margin-bottom: 40px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     /* animation: App-logo-spin infinite 20s linear; */
@@ -28,14 +33,14 @@ body {
 
 .App-header {
   /* background-color: #282c34; */
-  background-color: black;
+  /* background-color: black; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: grey;
 
 }
 
@@ -57,8 +62,42 @@ body {
   100% { transform: rotate(360deg); }
 } */
 
+.legal {
+  color: white;
+  margin: 50px;
+  padding: 20px;
+  text-align: left;
+  /* background-color: white; */
+}
+
+.about {
+  margin: auto;
+  width: 600px;
+  padding: 20px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: left;
+  line-height: 25px;
+}
+
 .footer {
   padding: 20px;
   background-color: black;
   color: grey;
+}
+
+
+.nav {
+  margin: 20px;
+  padding: 20px;
+}
+
+.link {
+  margin: 20px;
+  text-decoration: none;
+  color: grey
 }
