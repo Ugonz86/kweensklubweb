@@ -20,7 +20,7 @@
   pointer-events: none;
   color: white;
   filter: invert(1);
-  margin: 50px;
+  margin-bottom: 30px;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
@@ -98,13 +98,15 @@
 }
 
 .support {
-  margin: 20px;
+  /* margin-top: 50px; */
+  margin: 50px;
+  /* margin-left: 50px; */
   min-height: 80vh;
   font-size: calc(7px + 1vmin);
   color: grey;
   text-align: left;
   padding: 20px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 h4 {
