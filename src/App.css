@@ -97,6 +97,20 @@
   padding: 10px;
 }
 
+.support {
+  margin: 20px;
+  min-height: 80vh;
+  font-size: calc(7px + 1vmin);
+  color: grey;
+  text-align: left;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+h4 {
+  color: white;
+}
+
 .footer {
   color: grey;
   font-size: 12px;
