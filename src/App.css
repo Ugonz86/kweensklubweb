@@ -60,16 +60,13 @@
 
 .legal {
   text-align: left;
-  /* margin-top: 20px; */
   margin-top: 50px;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 60px;
-  /* min-height: 60vh; */
-  font-size: calc(10px + 2vmin);
+  font-size: calc(8px + 1vmin);
   color: white;
   padding: 20px;
-  /* text-align: justify; */
 }
 
 .about {
@@ -79,7 +76,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(8px + 1vmin);
   color: white;
   padding: 20px;
 }
@@ -106,7 +103,6 @@
   color: grey;
   text-align: left;
   padding: 20px;
-  /* margin-bottom: 50px; */
 }
 
 h4 {
