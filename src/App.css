@@ -20,7 +20,7 @@
   pointer-events: none;
   color: white;
   filter: invert(1);
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
@@ -64,12 +64,26 @@
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 60px;
-  font-size: calc(8px + 1vmin);
+  font-size: calc(6px + 1vmin);
   color: white;
   padding: 20px;
 }
 
 .about {
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+}
+
+.updates {
   margin: 20px;
   min-height: 80vh;
   display: flex;
@@ -88,7 +102,8 @@
 .content {
   text-align: left;
   line-height: 25px;
-  font-size: 18px;
+  /* font-size: 16px; */
+  font-size: calc(6px + 1vmin);
   text-align: justify;
   margin-bottom: 50px;
   padding: 10px;
@@ -105,7 +120,7 @@
   padding: 20px;
 }
 
-h4 {
+h3 {
   color: white;
 }
 
@@ -127,7 +142,7 @@ h4 {
 
 
 .nav {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   top: 0;
   left: 0;
   right: 0;
@@ -136,6 +151,7 @@ h4 {
   align-items: center;
   position: fixed;
   background-color: black;
+  z-index: 1;
 }
 
 .link {

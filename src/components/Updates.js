@@ -3,8 +3,9 @@ import "../App.css";
 
 function Updates() {
   return (
-    <div className="about">
-      <h3>We'll Announce Exciting Updates Soon. Stay Tuned.</h3>
+    <div className="updates">
+      <h3>We'll Announce Exciting Updates Soon.</h3>
+      <h3>Stay Tuned.</h3>
     </div>
   );
 }
