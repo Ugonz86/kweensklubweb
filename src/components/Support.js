@@ -16,7 +16,7 @@ function Support() {
         send us your inquiries or concerns directly through mobile app's contact
         form.
       </ul> */}
-      <ul>Please email us at kweensklub1211@gmail.com with any questions or business inquiries</ul>
+      <ul>Please email us at kweensklub1211@gmail.com with any questions or business inquiries.</ul>
       <h4>Location</h4>
       <ul>1211 Av. Manuel Fernández Juncos, San Juan, Puerto Rico 00907</ul>
       <h4>Hours</h4>
