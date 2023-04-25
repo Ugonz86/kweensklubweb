@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaInstagram } from "react-icons/fa";
+// import { FaFacebook, FaInstagram } from "react-icons/fa";
 import "../App.css";
 
 function Updates() {
@@ -7,7 +7,7 @@ function Updates() {
     <div className="updates">
       <h3>We'll Announce Exciting Updates Soon.</h3>
       <h3>Stay Tuned.</h3>
-      <div className="iconContainer">
+      {/* <div className="iconContainer">
         <a
           href="https://www.facebook.com/KlubKweens1211/"
           target="_blank"
@@ -22,7 +22,7 @@ function Updates() {
         >
           <FaInstagram className="icon" />
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -5,6 +5,7 @@ import AboutUs from "./components/AboutUs";
 import Legal from "./components/Legal";
 import Updates from "./components/Updates";
 import Support from "./components/Support";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 import "./App.css";
 
 function App() {
@@ -36,8 +37,24 @@ function App() {
         <Route path="support" element={<Support />} />
       </Routes>
       <footer className="footer">
+      <div className="iconContainer">
+        <a
+          href="https://www.facebook.com/KlubKweens1211/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaFacebook className="icon" />
+        </a>
+        <a
+          href="https://www.instagram.com/kweensklub/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaInstagram className="icon" />
+        </a>
+      </div>
         <p>KK Group, LLC. All Rights Reserved.</p>
-        <p>App and Website Developed by UGX</p>
+        <p>Powered by UGX</p>
       </footer>
     </div>
   );

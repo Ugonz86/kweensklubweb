@@ -149,9 +149,7 @@ h4 {
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: black;
 }
-
 
 .nav {
   font-size: calc(7px + 1vmin);
@@ -173,13 +171,18 @@ h4 {
 }
 
 .iconContainer {
-  margin: 40px;
   font-size: 30px;
+  align-items: center;
+  padding: 0;
+  margin: auto;
+  
 }
 
 .icon {
   color: grey;
-  margin: 20px;
+  margin: 0 10px;
+
+  /* margin: 20px; */
   /* border-radius: 30%; */
   /* background: white;
   background: linear-gradient(90deg, red 15%, orange 30%, yellow 45%,green 60%,blue 75%, purple 90%); */
