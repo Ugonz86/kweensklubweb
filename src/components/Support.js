@@ -5,17 +5,18 @@ function Support() {
   return (
     <div className="support">
       <h4>Support</h4>
-      <ul>
+      {/* <ul>
         Download our Kweens Klub Mobile App to make reservations, to get
         information about our memberships, to get the latest updates and more.
         Currently available in the Apple Store. Android version coming soon.
-      </ul>
-      <ul>
+      </ul> */}
+      {/* <ul>
         For mobile app support, please contact our Developer at
         <span style={{textDecoration: 'underline'}}> kkappdevtester@gmail.com</span>. If you have any mobile app feedback, please
         send us your inquiries or concerns directly through mobile app's contact
         form.
-      </ul>
+      </ul> */}
+      <ul>Please email us at kweensklub1211@gmail.com for any questions or business inquiries</ul>
       <h4>Location</h4>
       <ul>1211 Av. Manuel Fernández Juncos, San Juan, Puerto Rico 00907</ul>
       <h4>Hours</h4>
